@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
 :root{
     /* --font-color:#040D12; */
@@ -276,7 +277,13 @@ a{
     color: var(--font-color-sec);
     padding:7px 0;    
 }
-
+.reference{
+    text-align: center;   
+}
+.reference a{
+    font-weight: 800;
+    text-decoration:underline;
+}
 .footer{
     /* display: flex;
     align-items: center;
@@ -296,6 +303,7 @@ a{
 }
 .submited-des{
     font-size:15px;
+    font-weight:500;
 }
 
 @media only screen and (max-width:800px) {
